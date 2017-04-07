@@ -11,6 +11,9 @@
     - apt:
 	 name: php7.1-xml
 	 update_cache: yes
+    - apt:
+	 name: php7.1-zip
+	 update_cache: yes
 
     - name: main | uninstall apache packages
       apt: >
